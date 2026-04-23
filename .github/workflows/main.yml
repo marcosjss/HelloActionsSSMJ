@@ -1,0 +1,10 @@
+name: Hello SSMJ
+
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello SSMJ
+        run: echo "Hola, mundo, desde SSMJ"
